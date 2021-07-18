@@ -12,8 +12,10 @@ namespace BourbonBank
     {
         static void Main(string[] args)
         {
+            
             string fileName = @"C:\Users\tumai\source\repos\BourbonBank\BourbonBank\BourbonCollection.json";
-            var bottles = LoadBottles(fileName);
+            string path = Path.Combine(Environment.CurrentDirectory, @"Data\", fileName);
+            var bottles = LoadBottles(path);
             
             //Cosmetic stuff            
             Console.BackgroundColor = ConsoleColor.DarkRed;
@@ -88,7 +90,7 @@ namespace BourbonBank
                             bottle.BottlesOwned = intParse;
                         }
                         bottles.Add(bottle);
-                        SaveBottles(bottles, fileName);
+                        SaveBottles(bottles, path);
                         continue;
                     }
                     // Update an existing bottle count
@@ -100,7 +102,7 @@ namespace BourbonBank
                         Console.WriteLine("How many bottles would you like to add or subtract? Type - for subtraction.");
                         if (Int32.TryParse(Console.ReadLine(), out intParse)) { amountofBottles = intParse; }
                         UpdateBottle(updatedBottle, amountofBottles, bottles);
-                        SaveBottles(bottles, fileName);
+                        SaveBottles(bottles, path);
                         continue;
                     }
                     // Remove a bottle from collection
@@ -110,13 +112,13 @@ namespace BourbonBank
                         var bottleRemoved = Console.ReadLine();
                         var remove = bottles.SingleOrDefault(b => b.Name == bottleRemoved);
                         if (remove != null) bottles.Remove(remove);
-                        SaveBottles(bottles, fileName);
+                        SaveBottles(bottles, path);
                         continue;
                     }
                     // Calculate value of collection
                     else if (Int32.Parse(response) == 5)
                     {
-                        CalcValue(fileName);
+                        CalcValue(path);
                         continue;
                     }                                  
                 }
