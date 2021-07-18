@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2r4nKNkQsjR1f2L0bdjSE0GTVWXiGTfjfu1sYOZlEYkX1/mSfDmpH8+N0/9tRjyndcnHr3xa9X8OoSAA3H/IwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tumai\\source\\repos\\BourbonBank\\BourbonBank\\BourbonBank.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tumai\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
