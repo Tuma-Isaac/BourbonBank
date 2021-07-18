@@ -12,10 +12,10 @@ namespace BourbonBank
     {
         static void Main(string[] args)
         {
-            
-            string fileName = @"C:\Users\tumai\source\repos\BourbonBank\BourbonBank\BourbonCollection.json";
-            string path = Path.Combine(Environment.CurrentDirectory, @"Data\", fileName);
-            var bottles = LoadBottles(path);
+            string currentDirectory = Directory.GetCurrentDirectory();
+            DirectoryInfo directory = new DirectoryInfo(currentDirectory);
+            var fileName = Path.Combine(directory.FullName, "BourbonCollection.json");
+            var bottles = LoadBottles(fileName);
             
             //Cosmetic stuff            
             Console.BackgroundColor = ConsoleColor.DarkRed;
@@ -90,7 +90,7 @@ namespace BourbonBank
                             bottle.BottlesOwned = intParse;
                         }
                         bottles.Add(bottle);
-                        SaveBottles(bottles, path);
+                        SaveBottles(bottles, fileName);
                         continue;
                     }
                     // Update an existing bottle count
@@ -102,7 +102,7 @@ namespace BourbonBank
                         Console.WriteLine("How many bottles would you like to add or subtract? Type - for subtraction.");
                         if (Int32.TryParse(Console.ReadLine(), out intParse)) { amountofBottles = intParse; }
                         UpdateBottle(updatedBottle, amountofBottles, bottles);
-                        SaveBottles(bottles, path);
+                        SaveBottles(bottles, fileName);
                         continue;
                     }
                     // Remove a bottle from collection
@@ -112,13 +112,13 @@ namespace BourbonBank
                         var bottleRemoved = Console.ReadLine();
                         var remove = bottles.SingleOrDefault(b => b.Name == bottleRemoved);
                         if (remove != null) bottles.Remove(remove);
-                        SaveBottles(bottles, path);
+                        SaveBottles(bottles, fileName);
                         continue;
                     }
                     // Calculate value of collection
                     else if (Int32.Parse(response) == 5)
                     {
-                        CalcValue(path);
+                        CalcValue(fileName);
                         continue;
                     }                                  
                 }

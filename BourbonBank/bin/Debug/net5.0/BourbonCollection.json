@@ -1,0 +1,232 @@
+[
+  {
+    "Name": "1792 Full Proof",
+    "Distillery": "Barton 1792",
+    "Size": 750.0,
+    "Proof": 125.0,
+    "Age": "8",
+    "MSRP": 50,
+    "SecondaryPrice": 65,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "1792 12 Year",
+    "Distillery": "Barton 1792",
+    "Size": 750.0,
+    "Proof": 96.6,
+    "Age": "12",
+    "MSRP": 50,
+    "SecondaryPrice": 100,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Bird Dog Peanut Butter Whiskey",
+    "Distillery": "Bird Dog",
+    "Size": 750.0,
+    "Proof": 80.0,
+    "Age": "NAS",
+    "MSRP": 20,
+    "SecondaryPrice": 20,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Old Forester Single Barrel",
+    "Distillery": "Brown-Forman",
+    "Size": 750.0,
+    "Proof": 100.0,
+    "Age": "NAS",
+    "MSRP": 40,
+    "SecondaryPrice": 80,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Old Forester Birthday Bourbon(2020)",
+    "Distillery": "Brown-Forman",
+    "Size": 750.0,
+    "Proof": 98.0,
+    "Age": "10",
+    "MSRP": 150,
+    "SecondaryPrice": 650,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Weller Special Reserve",
+    "Distillery": "Buffalo Trace",
+    "Size": 1.75,
+    "Proof": 90.0,
+    "Age": "4-7",
+    "MSRP": 45,
+    "SecondaryPrice": 90,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Weller Antique 107",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 107.0,
+    "Age": "6-8",
+    "MSRP": 50,
+    "SecondaryPrice": 130,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Weller 12 Year",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 90.0,
+    "Age": "12",
+    "MSRP": 50,
+    "SecondaryPrice": 200,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Weller Full Proof",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 114.0,
+    "Age": "NAS",
+    "MSRP": 50,
+    "SecondaryPrice": 200,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Weller CYPB",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 95.0,
+    "Age": "8",
+    "MSRP": 50,
+    "SecondaryPrice": 650,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Elmer T Lee",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 90.0,
+    "Age": "5-7",
+    "MSRP": 60,
+    "SecondaryPrice": 300,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Stagg Jr",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 131.1,
+    "Age": "8",
+    "MSRP": 50,
+    "SecondaryPrice": 100,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "EH Taylor Single Barrel",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 100.0,
+    "Age": "NAS",
+    "MSRP": 60,
+    "SecondaryPrice": 150,
+    "BottlesOwned": 2
+  },
+  {
+    "Name": "Benchmark Full Proof",
+    "Distillery": "Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 125.0,
+    "Age": "NAS",
+    "MSRP": 20,
+    "SecondaryPrice": 30,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Elijah Craig Barrel Proof",
+    "Distillery": "Heaven Hill",
+    "Size": 750.0,
+    "Proof": 127.2,
+    "Age": "12",
+    "MSRP": 60,
+    "SecondaryPrice": 100,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Rebel Distiller's Collection(Barrel # 7936019)",
+    "Distillery": "Lux Rox",
+    "Size": 750.0,
+    "Proof": 113.0,
+    "Age": "5",
+    "MSRP": 45,
+    "SecondaryPrice": 45,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Michters Barrel Strength",
+    "Distillery": "Michters",
+    "Size": 750.0,
+    "Proof": 107.0,
+    "Age": "NAS",
+    "MSRP": 100,
+    "SecondaryPrice": 200,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Very Old St Nick Winter Maple Rye",
+    "Distillery": "Preservation",
+    "Size": 750.0,
+    "Proof": 81.2,
+    "Age": "7",
+    "MSRP": 120,
+    "SecondaryPrice": 240,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Caribou Corssing",
+    "Distillery": "Sazerac/Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 80.0,
+    "Age": "3",
+    "MSRP": 50,
+    "SecondaryPrice": 100,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Sazerac Rye",
+    "Distillery": "Sazerac/Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 90.0,
+    "Age": "6",
+    "MSRP": 35,
+    "SecondaryPrice": 60,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Old Rip Van Winkle 10 Year",
+    "Distillery": "Sazerac/Buffalo Trace",
+    "Size": 750.0,
+    "Proof": 107.0,
+    "Age": "10",
+    "MSRP": 70,
+    "SecondaryPrice": 650,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Woodford Reserve Very Fine Rare",
+    "Distillery": "Woodford Reserve",
+    "Size": 750.0,
+    "Proof": 90.4,
+    "Age": "11-17",
+    "MSRP": 140,
+    "SecondaryPrice": 300,
+    "BottlesOwned": 1
+  },
+  {
+    "Name": "Woodford Reserve Double Double Oak",
+    "Distillery": "Woodford Reserve",
+    "Size": 375.0,
+    "Proof": 90.4,
+    "Age": "NAS",
+    "MSRP": 60,
+    "SecondaryPrice": 120,
+    "BottlesOwned": 1
+  }
+]
